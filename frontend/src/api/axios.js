@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://online-code-judge-pdik.onrender.com/api',
 });
 
 api.interceptors.request.use((config) => {
